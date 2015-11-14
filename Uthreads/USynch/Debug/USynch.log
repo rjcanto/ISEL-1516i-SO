@@ -1,0 +1,34 @@
+﻿Build started 10-11-2015 22:21:02.
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetTargetPath target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetNativeManifest target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\USynch.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\USynch.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.lib" /MACHINE:X86 /DLL Debug\Semaphore.obj
+         Debug\Mutex.obj
+         Debug\Event.obj
+         "D:\Github\ISEL-1516i-SO\Uthreads\Debug\UThread.lib"
+     1>Semaphore.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.lib and object D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.exp
+         USynch.vcxproj -> D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.dll;#2" /manifest Debug\USynch.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\USynch.unsuccessfulbuild".
+         Touching "Debug\USynch.lastbuildstate".
+     1>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.38

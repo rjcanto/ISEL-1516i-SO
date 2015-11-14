@@ -1,0 +1,50 @@
+﻿Build started 10-11-2015 22:22:02.
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2) on node 1 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetTargetPath target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (3) on node 2 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     3>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (GetTargetPath target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2:2) on node 1 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetNativeManifest target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (3:2) on node 2 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     3>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (GetNativeManifest target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimpleTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SimpleTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SimpleTest.cpp
+         SimpleTest.cpp
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2:3) on node 1 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (3:3) on node 2 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     3>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\SimpleTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimpleTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\SimpleTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\SimpleTest.lib" /MACHINE:X86 Debug\SimpleTest.obj
+         Debug\stdafx.obj
+         "D:\Github\ISEL-1516i-SO\Uthreads\Debug\USynch.lib"
+         "D:\Github\ISEL-1516i-SO\Uthreads\Debug\UThread.lib"
+     1>SimpleTest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         SimpleTest.vcxproj -> D:\Github\ISEL-1516i-SO\Uthreads\Debug\SimpleTest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Github\ISEL-1516i-SO\Uthreads\Debug\SimpleTest.exe;#1" /manifest Debug\SimpleTest.exe.intermediate.manifest
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (2:6) on node 1 (GetCopyToOutputDirectoryItems target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\UThread\UThread.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+     1>Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (1) is building "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (3:4) on node 2 (GetCopyToOutputDirectoryItems target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     3>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\USynch\USynch.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+     1>FinalizeBuildStatus:
+         Deleting file "Debug\SimpleTest.unsuccessfulbuild".
+         Touching "Debug\SimpleTest.lastbuildstate".
+     1>Done Building Project "D:\Github\ISEL-1516i-SO\Uthreads\SimpleTest\SimpleTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24
